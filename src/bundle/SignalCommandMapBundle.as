@@ -12,16 +12,12 @@ import robotlegs.bender.framework.api.IExtension;
 
 public class SignalCommandMapBundle implements IExtension {
 
-    /*============================================================================*/
-    /* Public Functions                                                           */
-    /*============================================================================*/
+	/*============================================================================*/
+	/* Public Functions                                                           */
+	/*============================================================================*/
 
-    public function extend(context:IContext):void {
-        context.install(
-
-                SignalCommandMapExtension);
-
-        //context.configure(ContextViewListenerConfig);
-    }
+	public function extend(context:IContext):void {
+		context.install(SignalCommandMapExtension);
+	}
 }
 }
